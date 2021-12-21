@@ -1,0 +1,5 @@
+/.idea
+/nginx/
+/logs/
+README.md
+docker-compose.yml
