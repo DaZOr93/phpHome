@@ -7,5 +7,5 @@ if (isset($_FILES["textFile"])){
     $filePatch = 'uploads/'. $textFileName;
     move_uploaded_file($current_patch, $newPatch);
 }
-$filesContent = file_get_contents("uploads/fruits.txt");
+$filesContent = file_get_contents($filePatch );
 echo $filesContent;
